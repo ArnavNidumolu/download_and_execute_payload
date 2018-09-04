@@ -8,7 +8,16 @@
 
 * This program can currently be run from only LINUX interfaces 
 
-Hope this tool helps :)
+Steps for Running the tool:
+
+1) chmod +x install.sh
+2) ./install.sh
+3) python payload.py --help
+4) python payload.py -d link1 -b link2 -w/-l -o file.py
+5) Go to the Dist folder, and find the file 
+6) Test the file on the respective OS (linux or windows)
+
+Hope this tool helps :) Feel free to tell the contributors about your problems with this too. 
 
 
 
