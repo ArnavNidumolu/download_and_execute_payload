@@ -8,7 +8,7 @@
 
 * This program can currently be run from only LINUX interfaces 
 
-# Hope this tool helps :)
+Hope this tool helps :)
 
 
 
