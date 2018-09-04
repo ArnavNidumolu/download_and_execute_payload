@@ -51,7 +51,7 @@ if arguments.windows:
 if arguments.linux:
 	compile_for_linux(arguments.out)
 
-print("\n\n[***] Please use this tool for Legla and Valid Purposes\n")
+print("\n\n[***] Please use this tool for Legal and Valid Purposes\n")
 print("Thanks for using this tool :)")
 
 
