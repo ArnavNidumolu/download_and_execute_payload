@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-rm varlibdpkglock
-rm varcacheaptarchiveslock
-rm varlibaptlistslock
+rm /var/lib/dpkg/lock
+rm /var/cache/apt/archives/lock
+rm /var/lib/apt/lists/lock
 sudo dpkg --add-architecture i386
 sudo apt-get update
 sudo apt-get install -y wine32 python-pip pyinstaller
