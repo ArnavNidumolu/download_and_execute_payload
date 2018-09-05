@@ -10,7 +10,7 @@
 
 Steps for Running the tool:
 
-1) git clone https://github.com/ArnavNidumolu/download_and_execute_payload.git
+1) git clone https://github.com/arnavn101/download_and_execute_payload.git
 2) cd download_and_execute_payload/
 3) chmod +x install.sh
 4) ./install.sh
