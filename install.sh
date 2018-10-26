@@ -11,4 +11,6 @@ sudo apt-get install -y wine32 python-pip pyinstaller
 wget https://www.python.org/ftp/python/2.7.14/python-2.7.14.msi
 wine msiexec /i python-2.7.14.msi
 sudo wine ~/.wine/drive_c/Python27/python.exe -m pip install requests==2.5.1
+sudo wine ~/.wine/drive_c/Python27/python.exe -m pip install pyinstaller
+
 sudo pip install requests==2.5.1
